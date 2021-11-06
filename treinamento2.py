@@ -1,4 +1,4 @@
-import os 
+import os,sys
 os.remove("escola.db") if os.path.exists("escola.db") else None
 
 import sqlite3
